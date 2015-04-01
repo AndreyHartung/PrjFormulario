@@ -4,11 +4,12 @@
     $button = $('#button');
     
     $button.click(function () {
+    var toAddNome = $('input[name=nome]').val();
     var toAddData = $('input[name=data]').val();
     var toAddValor = $('input[name=valor]').val();
     var toAddProduto = $('#bandeiras').val();
         
-    $('.list').append('<div class="item">' + 'Data: ' + toAddData + ' Valor: ' + toAddValor + ' Número da Bandeira: ' + toAddProduto + '</div>'); });
+    $('.list').append('<div class="item">' + 'Produto: ' + toAddNome + ' Data: ' + toAddData + ' Valor: ' + toAddValor + ' Número da Bandeira: ' + toAddProduto + '</div>'); });
     
     
     
