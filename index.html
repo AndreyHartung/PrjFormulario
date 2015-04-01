@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Basic Bootstrap Template</title>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <style type="text/css">
+	@import url("main.css");
+    </style>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="jquery/jquery-ui.min.css"/>
+    <script src="jquery/jquery-2.1.3.min.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="jquery/jquery.maskMoney.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="container">
+        <div class="row">
+            <div class="col-md-12"><p>Cadastro de Transações</p></div>
+            <div class="col-md-12" id="txtData"><p>Data: <input class="calendario" type="text" name="data"></p></div>
+            <div class="col-md-12" id="txtValor"><p>Valor: <input class="valor" type="text" name="valor"></p></div>
+            <div class="col-md-12" id="tipoProduto"><p>Produto: 
+                <select id='bandeiras'>
+                  <option value=1>MASTER CREDITO</option>
+                  <option value=2>MASTER DEBITO</option>
+                  <option value=3>VISA CREDITO</option>
+                  <option value=4 selected>VISA DEBITO</option>
+                </select>
+            </p>
+            </div>
+            <div class="col-md-12" id="perguntas">
+                <button type="button" id="button" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-ok"></span> Salvar</button></div>
+            <div class="col-md-4 col-md-offset-4 list"></div>
+        </div>
+    </div>
+   
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

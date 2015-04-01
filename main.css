@@ -1,0 +1,31 @@
+
+p {     
+        padding: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        background: #f2f2f2;
+        
+       
+}
+
+p input {
+    font-weight: normal;
+    color:
+    font-size: 0.75em;
+    
+}
+p select {
+    font-weight: normal;
+    color: black;
+    font-size: 0.75em;
+}
+.list {
+	font-family:garamond;
+	color:#cc0000;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 25%;
+}
+
+
